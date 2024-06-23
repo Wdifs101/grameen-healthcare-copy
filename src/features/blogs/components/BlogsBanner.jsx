@@ -1,12 +1,12 @@
 
 import Typography from "../../../shared/components/Typography/Typography";
 import { CgProfile } from "react-icons/cg";
-import bannerPic from "../assets/blogsBannerImage.jpg"
+import bannerPic from "../assets/blog-banner.jpg"
 import Button from "../../../shared/components/Button/Button";
 const BlogsBanner = () => {
     return (
         <div>
-             <div className="relative rounded-xl overflow-hidden lg:h-[450px] md:h-[380px] sm:h-[340px] h-[300px] bg-cover bg-center " style={{ backgroundImage: `url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2024-03/240301-muhammad-yunus-mb-1029-c53290.jpg)` }}>
+             <div className="relative rounded-xl overflow-hidden lg:h-[450px] md:h-[380px] sm:h-[340px] h-[300px] bg-cover bg-center " style={{ backgroundImage: `url(${bannerPic})` }}>
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative container mx-auto h-full flex items-end py-6 ">
         <div className=" text-white px-5">

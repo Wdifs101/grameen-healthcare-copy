@@ -34,8 +34,8 @@ const ManagingDirectorMessage = () => {
           </div>
           <div className=" col-span-2">
             <p>
-              I would like to take this opportunity to welcome you to the world
-              of Grameen Health Care Services Ltd.(GHS)
+              <b>I would like to take this opportunity to welcome you to the world
+              of Grameen Health Care Services Ltd.(GHS)</b>
               <br />
               <p>
                 GHS is a healthcare organization of Grameen family, consisting

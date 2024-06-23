@@ -28,19 +28,16 @@ const ProfileOfMdYounus = () => {
     <section className="  bg-background-primary">
       <div className="container p-2 md:p-0 mx-auto md:px-0 py-5 md:py-10">
         <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 items-center ">
-          <div className="order-2 md:order-1">
-            <Typography variant={"p"} className={" mb-3 md:mb-6"}>
-              Profile
-            </Typography>
-            <Typography variant={"h1"} className={"font-normal mb-4 md:mb-16"}>
+          <div className="order-2 md:order-1 space-y-2">
+            <Typography variant={"h1"} className={"font-normal"}>
               Prof. Muhammad Yunus
             </Typography>
             <Typography variant={"h3"} className={"font-light"}>
             Nobel Laureate,Founder and chairman of Grameen Healthcare Center.
             </Typography>
           </div>
-          <div className=" order-1 md:order-2">
-            <img src={PictureOfMdYounus} />
+          <div className=" order-1 md:order-2 h-[40rem]">
+            <img src={PictureOfMdYounus} className="h-full rounded-md"/>
           </div>
         </div>
       </div>

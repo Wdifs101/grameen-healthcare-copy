@@ -8,7 +8,6 @@ const PresentationCard = ({cardPic,detail,title}) => {
       <div className="flex items-center justify-between">
         <Typography className="font-semibold mt-2" variant="h4">
           {title}
-          
         </Typography>
         <Typography color="text-[#525050] ">Jul 24, 2024</Typography>
       </div>

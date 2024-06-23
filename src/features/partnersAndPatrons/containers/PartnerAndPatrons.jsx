@@ -18,7 +18,7 @@ import seva from "../assets/partners-3.png";
 import arvind from "../assets/arvind-eye-hospitals.jpg";
 import lv from "../assets/Logo_of_L._V._Prasad_Eye_Institute.jpg";
 import sbh from "../assets/logosbh.png";
-import bannerImage from "../assets/partner.jpeg";
+import bannerImage from "../assets/hospital.jpg";
 const PartnerAndPatrons = () => {
   return (
     <section className="  bg-background-primary">

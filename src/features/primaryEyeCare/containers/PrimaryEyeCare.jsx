@@ -1,3 +1,4 @@
+import { primaryCenters } from "../../../fakeAPi/primaryEyeCenter";
 import EyeCenter from "../../../shared/components/EyeCenter/EyeCenter";
 import GlobalBanner from "../../../shared/components/GlobalBanner/GlobalBanner";
 import Typography from "../../../shared/components/Typography/Typography";
@@ -8,13 +9,10 @@ const PrimaryEyeCare = () => {
   return (
     <div className="bg-background-primary ">
       <div className="max-w-7xl mx-auto py-8">
-
-
         <GlobalBanner image={bannerPicture}>
           {" "}
           Primary Eye Care center (vision center)
         </GlobalBanner>
-
 
         <div className="lg:p-8 md:p-6 sm:p-5 p-4 ">
           <Typography variant="h5">
@@ -58,11 +56,11 @@ const PrimaryEyeCare = () => {
           </Typography>
         </div>
         <div className="space-y-3">
-          <EyeCenter></EyeCenter>
-          <EyeCenter></EyeCenter>
-          <EyeCenter></EyeCenter>
-          <EyeCenter></EyeCenter>
-          <EyeCenter></EyeCenter>
+          {primaryCenters.map((center) => (
+            <EyeCenter key={center.id} title={center.title} img={center.image}>
+              {center.details}
+            </EyeCenter>
+          ))}
         </div>
       </div>
     </div>

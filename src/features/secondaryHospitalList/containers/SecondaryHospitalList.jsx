@@ -21,8 +21,8 @@ const SecondaryHospitalList = () => {
         {/* <GlobalBanner image={HistoryBannerImage}></GlobalBanner> */}
         <section className=" md:px-11">
           <div className=" my-5">
-            <OfficeHeading></OfficeHeading>
-            <div className=" grid grid-cols-1 md:grid-cols-2 gap-7">
+            <OfficeHeading title="Secondary Eye Hospitals :"></OfficeHeading>
+            <div className=" grid grid-cols-1 md:grid-cols-2 gap-7 mt-2">
               <OfficeLocation name={"Grameen GC Eye Hospital-Bogura"} address={"Betgari, Bonani, Bogura"} phone={"+88-051-78898,78525"} mobile={"+8801713-493336,01777-792525"} email={"managerbogra@grameenhealthcareservices.org"}></OfficeLocation>
               <OfficeLocation name={"Grameen GC Eye Hospital-Barishal"} address={"Rupatoli, Barishal"} phone={"+88-0431-71740,71741"} mobile={"+8801708-496936,01713-493393"} email={" managerbarisal@grameenhealthcareservices.org"}></OfficeLocation>
               <OfficeLocation name={"Grameen Eye Hospital-Thakurgaon"} address={"Phanchagarh Road, Salondar, Thakurgaon"} phone={""} mobile={"+88-01730-782980,01878-883530,01730-782982"} email={"managerthakurgaon@gmail.com"}></OfficeLocation>

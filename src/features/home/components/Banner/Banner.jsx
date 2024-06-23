@@ -57,7 +57,7 @@ const Banner = () => {
       <div ref={sliderRef} className="keen-slider">
         <div className="keen-slider__slide w-full max-h-[650px] flex items-center relative before:bg-gray-600/50 before:absolute before:w-full before:h-full before:z-10">
           <img className=" w-full h-full object-cover" src={BannerImage} />
-          <div className="absolute w-full">
+          <div className="absolute w-full md:ml-10">
             <div className="container mx-auto ps-10 md:ps-0 z-30 absolute">
               <Typography
                 variant={"primary_body"}
